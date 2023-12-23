@@ -15,5 +15,5 @@ jobs:
         GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       uses: 'fox-forks/code-owner-self-merge@master'
       with:
-        merge_method: 'squash
+        merge_method: 'squash'
         
