@@ -13,5 +13,7 @@ jobs:
     - name: 'Run Codeowners merge check'
       env:
         GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-      uses: 'fox-forks/code-owner-self-merge@main'
-
+      uses: 'fox-forks/code-owner-self-merge@master'
+      with:
+        merge_method: 'squash
+        
