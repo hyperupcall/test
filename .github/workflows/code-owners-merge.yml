@@ -17,5 +17,5 @@ jobs:
       uses: 'fox-forks/code-owner-self-merge@master'
       with:
         merge_method: 'squash'
-        ignoreFor: '["@hyperupcall"]'
+        quietFor: '["@hyperupcall"]'
         
